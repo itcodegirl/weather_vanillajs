@@ -1,3 +1,13 @@
+require('dotenv').config();
+
+console.log(process.env.apiKey);
+
+function searchCity(city) {
+	let apiKey = '';
+
+	console.log(apiKey);
+}
+
 function handleSearchSubmit(event) {
 	event.preventDefault();
 
